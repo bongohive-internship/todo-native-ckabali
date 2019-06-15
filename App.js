@@ -46,7 +46,7 @@ import { AppRegistry, FlatList, StyleSheet, Text, View } from 'react-native';
 export default class FlatListBasics extends Component {
   render() {
     return (
-      <View style={styles.container}>
+       <View style={styles.container}>
         <FlatList
           data={[
             {key: 'Devin'},
